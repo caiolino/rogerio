@@ -1,0 +1,66 @@
+.imagem{
+    width: 500px;
+    height: auto;
+}
+
+.sobre{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+    justify-content: center;
+}
+
+.texto-sobre{
+    width: 500px ;
+    padding: 20px;
+}
+
+h1{
+    font-weight: bold;
+    
+}
+
+p{
+    font-size: 1.5em;
+    text-align: justify;   text-justify: inter-word;
+
+}
+
+.integrantes{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+    justify-content: center;
+    
+
+    
+}
+
+.pessoa{
+    width: 200px;
+    box-shadow: 3px 3px 3px #3a383879;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.foto{
+    width: 150px ; 
+    height: auto ;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+.titulo-equipe{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}

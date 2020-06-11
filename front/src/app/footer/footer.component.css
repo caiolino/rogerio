@@ -1,0 +1,29 @@
+.logo{
+  width: 100px;
+  height: auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.cor{
+  background-color: #66CCFF;
+  padding: 10px 0 10px 0;
+}
+
+.titulo{
+  font-weight: bold;
+}
+
+ul > li{
+margin: 10px 5px 10px 5px;
+}
+
+.social > a:hover{
+color: black;
+}
+
+ul > li > a:hover{
+  color: black;
+}

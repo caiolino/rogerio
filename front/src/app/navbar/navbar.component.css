@@ -1,0 +1,25 @@
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.bg-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #66CCFF;
+    
+    justify-items: center;
+    padding: 5px;
+    box-shadow: 0 0 5px #000000;
+}
+
+
+@media screen and (max-width:993px){
+    .bg-nav{
+       flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+}
