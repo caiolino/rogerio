@@ -38,7 +38,7 @@ p{
 
 .pessoa{
     width: 200px;
-    box-shadow: 3px 3px 3px #3a383879;
+    box-shadow: 3px 3px 3px 3px #3a383879;
     padding: 20px;
     border-radius: 10px;
     display: flex; 
@@ -63,4 +63,14 @@ h2{
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.pessoa > p{
+    color: grey;
+}
+
+@media screen and (max-width: 546px) {
+    .imagem{
+        width: 100%;
+    }
 }

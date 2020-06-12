@@ -27,3 +27,9 @@ color: black;
 ul > li > a:hover{
   color: black;
 }
+
+@media screen and (max-width: 546px) {
+  .d-flex{
+    flex-direction: column;
+  }
+}
