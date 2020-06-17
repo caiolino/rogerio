@@ -17,7 +17,9 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { EditarComponent } from './editar/editar.component';
 import { DeletarComponent } from './deletar/deletar.component';
 import { FeedComponent } from './feed/feed.component';
-import { FormComponent } from './form/form.component'
+import { FormComponent } from './form/form.component';
+import { OrderModule } from 'ngx-order-pipe';
+import { AdmFeedComponent } from './adm-feed/adm-feed.component';
 
 @NgModule({
   declarations: [
@@ -32,14 +34,16 @@ import { FormComponent } from './form/form.component'
     EditarComponent,
     DeletarComponent,
     FeedComponent,
-    FormComponent
+    FormComponent,
+    AdmFeedComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    OrderModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

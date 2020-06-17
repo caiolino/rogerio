@@ -9,6 +9,8 @@ import { EditarComponent } from './editar/editar.component';
 import { DeletarComponent } from './deletar/deletar.component';
 import { FormComponent } from './form/form.component';
 import { FeedComponent } from './feed/feed.component';
+import { AdmFeedComponent } from './adm-feed/adm-feed.component';
+
 
 const routes: Routes = [
   
@@ -21,8 +23,8 @@ const routes: Routes = [
   { path: 'editar/:id', component: EditarComponent },
   { path: 'deletar/:id', component: DeletarComponent },
   { path: 'form', component:FormComponent},
-  { path: 'feed', component:FeedComponent}
-
+  { path: 'feed', component:FeedComponent},
+  { path: 'adm-feed', component:AdmFeedComponent }
 ];
 
 @NgModule({

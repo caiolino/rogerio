@@ -11,11 +11,11 @@ export class PostagemService {
     
   }
   getAllPostagem(){
-    return this.http.get("http://localhost:8080/postagem")
+    return this.http.get('http://localhost:8080/postagem')
   }
 
   postPostagem(post:Postagem){
-    return this.http.post("http://localhost:8080/postagem", post)
+    return this.http.post('http://localhost:8080/postagem', post)
   }
 
 }
