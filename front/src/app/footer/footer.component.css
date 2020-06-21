@@ -8,7 +8,7 @@ ul{
 }
 
 .cor{
-  background-color: #66CCFF;
+  background-color: #616464ea;
   padding: 10px 0 10px 0;
 }
 
@@ -21,7 +21,7 @@ margin: 10px 5px 10px 5px;
 }
 
 .social > a:hover{
-color: black;
+color: #black;
 }
 
 ul > li > a:hover{
