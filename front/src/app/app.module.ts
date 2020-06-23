@@ -20,6 +20,7 @@ import { FeedComponent } from './feed/feed.component';
 import { FormComponent } from './form/form.component';
 import { OrderModule } from 'ngx-order-pipe';
 import { AdmFeedComponent } from './adm-feed/adm-feed.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { AdmFeedComponent } from './adm-feed/adm-feed.component';
     DeletarComponent,
     FeedComponent,
     FormComponent,
-    AdmFeedComponent
+    AdmFeedComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

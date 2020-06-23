@@ -10,6 +10,7 @@ import { DeletarComponent } from './deletar/deletar.component';
 import { FormComponent } from './form/form.component';
 import { FeedComponent } from './feed/feed.component';
 import { AdmFeedComponent } from './adm-feed/adm-feed.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'deletar/:id', component: DeletarComponent },
   { path: 'form', component:FormComponent},
   { path: 'feed', component:FeedComponent},
-  { path: 'adm-feed', component:AdmFeedComponent }
+  { path: 'adm-feed', component:AdmFeedComponent },
+  { path: 'perfil', component: PerfilComponent }
 ];
 
 @NgModule({
